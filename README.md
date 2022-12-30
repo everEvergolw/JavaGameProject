@@ -1,2 +1,2 @@
 # JavaAssignment
-A java assignment
+A java assignment--Board Game
