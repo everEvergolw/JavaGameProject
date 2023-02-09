@@ -1,2 +1,2 @@
 # JavaAssignment
-A java assignment--Board Game(A+Project)
+A java assignment--Board Game (A+ Project)
