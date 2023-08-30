@@ -1,23 +1,37 @@
 # JavaProject
-A java project--Board Game (A+ Project)
 
-Run "Main.java" in this file to start the main view.
+## Board Game (A+ Project)
 
-In the main view, 
+A java project dedicated to creating a board game. 
 
-You can select the start game button. Enter the difficulty selection screen and select the corresponding difficulty.
+### Execution
 
-You can also choose Custimizied game to customize the game. Add players, and set the number of rows and columns, and obstacles.
+Run `Main.java` in this repository to launch the main view.
 
-In the game view,
+### Main View
 
-Decision                 : Enter key or Left mouse button
-Roll Button             : When clicked, the player will move randomly in a random direction
-Reset Button          : Reset the current view
-Return Button        : Return to main view
+<div align="center">
+    <img src="MainView.jpg" width="400">
+</div>
 
+In the main view:
+- Select the **Start Game** button to enter the difficulty selection screen and choose the desired difficulty.
+- Opt for **Customized Game** to tailor your game experience. Add players, set the number of rows and columns, and position obstacles.
 
-The game will automatically exit when you win, or click Close in the upper right corner.
+### Game View
 
+<div align="center">
+    <img src="GameView.jpg" width="400">
+</div>
 
-In the Test file, tests are done on the core logic of the game. Likewise, each view in the game is tested.
+In the game view:
+- **Decision**: Use the Enter key or Left mouse button.
+- **Roll Button**: Click to move the player randomly in an arbitrary direction.
+- **Reset Button**: Refreshes the current view.
+- **Return Button**: Navigates back to the main view.
+
+The game will automatically terminate upon winning or by clicking the Close button in the upper right corner.
+
+### Testing
+
+In the `Test` file, evaluations are conducted on the game's core logic. Similarly, every view in the game undergoes testing.
